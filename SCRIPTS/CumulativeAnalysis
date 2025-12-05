@@ -13,8 +13,9 @@ FROM
 (
 SELECT
 DATETRUNC(Month,OrderDate) AS OrderDate,
-SUM(Sales) AS TotalSales,
-AVG(Sales) AS AVGSales
+SUM(Sales*Units) AS TotalSales,
+AVG(Sales*Units) AS AVGSales
 FROM Gold.Fact_Sales
 GROUP BY DATETRUNC(Month,OrderDate)
 )t
+
