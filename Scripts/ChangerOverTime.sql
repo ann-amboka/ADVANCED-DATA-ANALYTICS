@@ -1,4 +1,4 @@
-/* PERFOM A CHANGE OVER TIME ANALYSIS OF OUR BUSINESS
+/* PERFORM A CHANGE OVER TIME ANALYSIS OF OUR BUSINESS
 =====================================================
 Get the Total Sales Over the Years
 Average Costs
